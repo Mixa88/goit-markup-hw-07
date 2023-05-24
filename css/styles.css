@@ -645,7 +645,7 @@ img {
   margin: 0;
 }
 
-.section-two-title {
+.title {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -670,20 +670,6 @@ img {
   background: #f4f4fd;
   padding-top: 96px;
   padding-bottom: 96px;
-}
-
-.section-three-title {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-
-  margin-bottom: 72px;
 }
 
 @media only screen and (min-width: 1157px) {
