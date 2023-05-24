@@ -630,6 +630,42 @@ img {
 
 /* What are we doing */
 
+@media only screen and (max-width: 1128px) {
+  .sec-two {
+    display: none;
+  }
+}
+
+.sec-two {
+  padding-bottom: 120px;
+}
+
+.list-two {
+  padding: 0;
+  display: flex;
+  margin: 0;
+}
+
+
+.section-two-title {
+  
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 72px;
+}
+
+.list-two .li-sec-two:not(:last-child) {
+  margin-right: 24px;
+}
 
 
 
