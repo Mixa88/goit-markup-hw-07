@@ -909,12 +909,11 @@ img {
 }
 
 .footer-container {
-
   display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 72px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 72px;
 }
 
 @media only screen and (min-width: 767px) {
@@ -941,46 +940,42 @@ img {
 }
 
 .footer-link-logo {
-
   text-decoration: none;
-    font-family: "Raleway", sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    margin-bottom: 17.5px;
-    display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-bottom: 17.5px;
+  display: inline-block;
 }
 
 .footer-logo-text {
-
   font-family: "Raleway", sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #f4f4fd;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }
 
 .footer-desk {
-
   font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
-    text-align: left;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    width: 264px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  text-align: left;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  width: 264px;
 }
-
 
 @media only screen and (min-width: 1157px) {
   .footer-social {
@@ -1037,8 +1032,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
-
 
 .subscribe-item {
   display: flex;
@@ -1120,10 +1113,6 @@ img {
 .subscribe-btn-icon {
   margin-left: 16px;
 }
-
-
-
-
 
 /* Modal Window/ */
 
