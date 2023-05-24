@@ -236,14 +236,14 @@ img {
 
 .contacts {
   font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #434455;
-    text-decoration: none;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #434455;
+  text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media only screen and (min-width: 1157px) {
@@ -256,7 +256,6 @@ img {
 .contacts:focus {
   color: #404bbf;
 }
-
 
 .menu-toggle {
   min-height: 40px;
@@ -359,7 +358,6 @@ img {
   left: 24px;
 }
 
-
 .mobile-contacts-list {
   margin-top: 0;
   margin-bottom: 48px;
@@ -399,43 +397,50 @@ img {
   background-color: #404bbf;
 }
 
-
 /* Hero */
 
 .hero-section {
   background: #2e2f42;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),
-      url(../images/img-background/background-mob1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 502px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/img-background/background-mob1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 502px;
 }
 
 @media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
   .hero-section {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
       url(../images/img-background/background-mob1.jpg);
   }
 }
 
 @media only screen and (min-width: 429px) {
   .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
       url(../images/img-background/background-tab1.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .hero {
-      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)),
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
         url(../images/img-background/background-tab1.jpg);
     }
   }
@@ -443,17 +448,21 @@ img {
 
 @media only screen and (min-width: 769px) {
   .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
       url(../images/img-background/background-desc.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .hero {
-      background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)),
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
         url(../images/img-background/background-desc.jpg);
     }
   }
@@ -464,39 +473,39 @@ img {
 }
 
 .main-title {
-    font-family: "Roboto";
-      font-style: normal;
-      font-weight: 700;
-      font-size: 36px;
-      line-height: 1.07;
-      letter-spacing: 0.02em;
-      color: #ffffff;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 72px;
-      text-align: center;
-      max-width: 320px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 72px;
+  text-align: center;
+  max-width: 320px;
 }
 
 .button-hero {
   background: #4d5ae5;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    cursor: pointer;
-  
-    display: block;
-    min-width: 169px;
-    padding: 16px 32px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    border: none;
-    margin-left: auto;
-    margin-right: auto;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+
+  display: block;
+  min-width: 169px;
+  padding: 16px 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-hero:hover,
@@ -505,12 +514,118 @@ img {
   color: #ffffff;
 }
 
+/* Our strengths */
 
+.sec-one {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
+.list-one {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0;
+  display: flex;
+}
 
+@media only screen and (max-width: 767px) {
+  .list-one {
+    gap: 72px;
+    flex-direction: column;
+    text-align: center;
+  }
+}
 
+@media only screen and (min-width: 768px) {
+  .list-one {
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
+}
 
+@media only screen and (min-width: 1157px) {
+  .list-one {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+}
 
+.li-sec-one {
+  max-width: 356px;
+}
+
+@media only screen and (min-width: 1157px) {
+  .li-sec-on {
+    max-width: 264px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .li-sec-on:nth-child(3) {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .li-sec-on:not(:last-child) {
+    margin: 0;
+  }
+}
+
+.feature {
+  background: #f4f4fd;
+  border-radius: 4px;
+  height: 112px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1158px) {
+  .feature {
+    display: none;
+  }
+}
+
+.section-one-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+@media only screen and (min-width: 1157px) {
+  .section-one-titles {
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  @media only screen and (min-width: 1157px) {
+    .section-one-title {
+      font-weight: 400;
+      font-size: 16px;
+    }
+  }
+}
+
+.section-one-text {
+  font-weight: 500;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+
+  color: #434455;
+  text-align: left;
+}
 
 /* Modal Window/ */
 
@@ -589,7 +704,6 @@ img {
 .modal-title {
   display: block;
 
-
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -634,7 +748,7 @@ img {
   box-shadow: 0 0 0 2px rgba(77, 90, 229, 0.25);
 }
 
-.form-field:focus+.form-icon {
+.form-field:focus + .form-icon {
   fill: #4d5ae5;
 }
 
@@ -709,7 +823,7 @@ img {
 .checkbox-checked {
   opacity: 0;
   transition: 250ms;
-  color: #2E2F42 40%;
+  color: #2e2f42 40%;
 }
 
 .checkbox-unchecked {
@@ -717,14 +831,13 @@ img {
   transition: 250ms;
 }
 
-.form-check-input:checked+.checkbox-icon>.checkbox-unchecked {
+.form-check-input:checked + .checkbox-icon > .checkbox-unchecked {
   opacity: 0;
 }
 
-.form-check-input:checked+.checkbox-icon>.checkbox-checked {
+.form-check-input:checked + .checkbox-icon > .checkbox-checked {
   opacity: 1;
 }
-
 
 .form-agreement-link {
   color: #4d5ae5;
@@ -764,7 +877,6 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-
 
 /* Portfolio */
 
