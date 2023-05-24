@@ -591,7 +591,7 @@ img {
 .section-one-title {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -601,13 +601,13 @@ img {
 }
 
 @media only screen and (min-width: 1157px) {
-  .section-one-titles {
+  .section-one-title {
     font-weight: 500;
     font-size: 20px;
   }
 
   @media only screen and (min-width: 1157px) {
-    .section-one-title {
+    .section-one-text {
       font-weight: 400;
       font-size: 16px;
     }
@@ -626,6 +626,13 @@ img {
   color: #434455;
   text-align: left;
 }
+
+
+/* What are we doing */
+
+
+
+
 
 /* Modal Window/ */
 
