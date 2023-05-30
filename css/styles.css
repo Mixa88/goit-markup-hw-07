@@ -88,6 +88,13 @@ img {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1127px) {
+  .header {
+    padding: 16px 0;
+  }
+}
+
+
 .container-nav {
   display: flex;
   align-items: center;
